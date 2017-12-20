@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0E4E701E31F640F2F61BD3 /* Pods_Pocket_Learner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938AD227C9E1C20C19614A28 /* Pods_Pocket_Learner.framework */; };
 		DC6DE84B1FEAB7E10088E46A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6DE84A1FEAB7E10088E46A /* AppDelegate.swift */; };
 		DC6DE84D1FEAB7E10088E46A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6DE84C1FEAB7E10088E46A /* ViewController.swift */; };
 		DC6DE8501FEAB7E10088E46A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6DE84E1FEAB7E10088E46A /* Main.storyboard */; };
 		DC6DE8521FEAB7E10088E46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6DE8511FEAB7E10088E46A /* Assets.xcassets */; };
 		DC6DE8551FEAB7E10088E46A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6DE8531FEAB7E10088E46A /* LaunchScreen.storyboard */; };
+		DC6F81F11FEAD1EC00759148 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F81F01FEAD1EC00759148 /* LoginViewController.swift */; };
+		DC6F81F31FEAD21100759148 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F81F21FEAD21100759148 /* RegisterViewController.swift */; };
+		DC6F81F51FEAD27800759148 /* QestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F81F41FEAD27800759148 /* QestionViewController.swift */; };
+		DC6F81F91FEAD62900759148 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = DC6F81F81FEAD62900759148 /* GoogleService-Info (2).plist */; };
+		DC6F81FB1FEAE9C700759148 /* anigif.gif in Resources */ = {isa = PBXBuildFile; fileRef = DC6F81FA1FEAE9C600759148 /* anigif.gif */; };
+		DC6F81FD1FEAE9E700759148 /* anigif.gif in Resources */ = {isa = PBXBuildFile; fileRef = DC6F81FC1FEAE9E700759148 /* anigif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F96FD7B97770FEE968192F3 /* Pods-Pocket Learner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket Learner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pocket Learner/Pods-Pocket Learner.debug.xcconfig"; sourceTree = "<group>"; };
+		7559855C4560D3606630C5F0 /* Pods-Pocket Learner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket Learner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pocket Learner/Pods-Pocket Learner.release.xcconfig"; sourceTree = "<group>"; };
+		938AD227C9E1C20C19614A28 /* Pods_Pocket_Learner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pocket_Learner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6DE8471FEAB7E10088E46A /* Pocket Learner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Learner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6DE84A1FEAB7E10088E46A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC6DE84C1FEAB7E10088E46A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		DC6DE8511FEAB7E10088E46A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC6DE8541FEAB7E10088E46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC6DE8561FEAB7E10088E46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6F81F01FEAD1EC00759148 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC6F81F21FEAD21100759148 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DC6F81F41FEAD27800759148 /* QestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QestionViewController.swift; sourceTree = "<group>"; };
+		DC6F81F81FEAD62900759148 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		DC6F81FA1FEAE9C600759148 /* anigif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = anigif.gif; sourceTree = "<group>"; };
+		DC6F81FC1FEAE9E700759148 /* anigif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = anigif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0E4E701E31F640F2F61BD3 /* Pods_Pocket_Learner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63E3A5633B50FBF78AC624F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				938AD227C9E1C20C19614A28 /* Pods_Pocket_Learner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F1AC9611C9AB2FE950CB96E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F96FD7B97770FEE968192F3 /* Pods-Pocket Learner.debug.xcconfig */,
+				7559855C4560D3606630C5F0 /* Pods-Pocket Learner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DC6DE83E1FEAB7E10088E46A = {
 			isa = PBXGroup;
 			children = (
 				DC6DE8491FEAB7E10088E46A /* Pocket Learner */,
+				DC6F81FC1FEAE9E700759148 /* anigif.gif */,
 				DC6DE8481FEAB7E10088E46A /* Products */,
+				7F1AC9611C9AB2FE950CB96E /* Pods */,
+				63E3A5633B50FBF78AC624F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +93,15 @@
 			children = (
 				DC6DE84A1FEAB7E10088E46A /* AppDelegate.swift */,
 				DC6DE84C1FEAB7E10088E46A /* ViewController.swift */,
+				DC6F81F01FEAD1EC00759148 /* LoginViewController.swift */,
+				DC6F81F21FEAD21100759148 /* RegisterViewController.swift */,
+				DC6F81F41FEAD27800759148 /* QestionViewController.swift */,
 				DC6DE84E1FEAB7E10088E46A /* Main.storyboard */,
 				DC6DE8511FEAB7E10088E46A /* Assets.xcassets */,
 				DC6DE8531FEAB7E10088E46A /* LaunchScreen.storyboard */,
+				DC6F81FA1FEAE9C600759148 /* anigif.gif */,
 				DC6DE8561FEAB7E10088E46A /* Info.plist */,
+				DC6F81F81FEAD62900759148 /* GoogleService-Info (2).plist */,
 			);
 			path = "Pocket Learner";
 			sourceTree = "<group>";
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC6DE8591FEAB7E10088E46A /* Build configuration list for PBXNativeTarget "Pocket Learner" */;
 			buildPhases = (
+				EDCD6C52852D5C1A0F84BBA5 /* [CP] Check Pods Manifest.lock */,
 				DC6DE8431FEAB7E10088E46A /* Sources */,
 				DC6DE8441FEAB7E10088E46A /* Frameworks */,
 				DC6DE8451FEAB7E10088E46A /* Resources */,
+				3237925229DE74F4AED7B6B5 /* [CP] Embed Pods Frameworks */,
+				259A27FF425FAC8B36347C2B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,7 +168,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6F81FD1FEAE9E700759148 /* anigif.gif in Resources */,
+				DC6F81F91FEAD62900759148 /* GoogleService-Info (2).plist in Resources */,
 				DC6DE8551FEAB7E10088E46A /* LaunchScreen.storyboard in Resources */,
+				DC6F81FB1FEAE9C700759148 /* anigif.gif in Resources */,
 				DC6DE8521FEAB7E10088E46A /* Assets.xcassets in Resources */,
 				DC6DE8501FEAB7E10088E46A /* Main.storyboard in Resources */,
 			);
@@ -131,13 +179,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		259A27FF425FAC8B36347C2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pocket Learner/Pods-Pocket Learner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3237925229DE74F4AED7B6B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pocket Learner/Pods-Pocket Learner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pocket Learner/Pods-Pocket Learner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDCD6C52852D5C1A0F84BBA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pocket Learner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC6DE8431FEAB7E10088E46A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6F81F11FEAD1EC00759148 /* LoginViewController.swift in Sources */,
+				DC6F81F51FEAD27800759148 /* QestionViewController.swift in Sources */,
 				DC6DE84D1FEAB7E10088E46A /* ViewController.swift in Sources */,
 				DC6DE84B1FEAB7E10088E46A /* AppDelegate.swift in Sources */,
+				DC6F81F31FEAD21100759148 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +389,7 @@
 		};
 		DC6DE85A1FEAB7E10088E46A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F96FD7B97770FEE968192F3 /* Pods-Pocket Learner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +405,7 @@
 		};
 		DC6DE85B1FEAB7E10088E46A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7559855C4560D3606630C5F0 /* Pods-Pocket Learner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
